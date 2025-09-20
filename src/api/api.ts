@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // const API = 'https://ecom-server-coxu.onrender.com'
-const API = 'https://ecom-server-coxu.onrender.com'
+const API = 'https://ecom-server-team-e6qi.onrender.com'
 
 
 const authLogin = (logindata: any) => axios.post(`${API}/users/login`, logindata)
